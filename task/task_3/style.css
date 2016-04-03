@@ -1,0 +1,41 @@
+*{margin: 0;padding: 0;}
+img{
+    height: 80px;
+    width: 80px;
+    vertical-align: top;
+    display: block;
+}
+img + img{
+    margin-top: 15px;
+}
+.clear{
+    clear:both;
+}
+.container{
+    padding-left: 220px;
+    padding-right: 140px;
+
+}
+.left{
+    float: left;
+    width: 160px;
+}
+.right{
+    float: right;
+    width: 80px;
+}
+.floatRight{
+    float: right;
+}
+.case{
+    background-color: white;
+    padding: 20px;
+    border: solid #999999 thin;
+}
+
+.div-out{
+    position: relative;
+    background-color: #eeeeee;
+    padding: 20px;
+    border: solid #999999 thin;
+}
