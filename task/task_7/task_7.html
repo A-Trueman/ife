@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+<div class="container">
+    <div class="nav">
+        <ul>
+            <li><a href="#">首页</a></li><!--
+         --><li><a href="#">最新活动</a></li><!--
+         --><li><a href="#">项目介绍</a></li><!--
+         --><li><a href="#">爱心社区</a></li><!--
+         --><li><a href="#">关于我们</a></li><!--
+         --><li>
+                <img src="img/u.png"/>
+                <input type="button" class="login" value="登录">
+            </li>
+        </ul>
+        <img src="img/book.png" class="book">
+        <p>新世界</p>
+    </div>
+    <div class="center div-1">
+        <div class="stack"></div>
+        <div class="word">
+            <h1>Time of new life</h1>
+            <h3>新时代，年轻的人们让我们一起</h3>
+            <h3>体验新生活，享受新生活</h3>
+            <input type="button" value="开始体验">
+        </div>
+    </div>
+    <div class="div-2 center">
+        <img src="img/_编组1_.png">
+        <img src="img/_编组2_.png">
+        <img src="img/_编组3_.png">
+        <img src="img/_编组4_.png">
+        <div>
+            <p>打造全新世界观，让你更</p>
+            <p>爱你的生活</p>
+        </div><!--
+        --><div>
+            <p>打造全新世界观，让你更</p>
+            <p>爱你的生活</p>
+        </div><!--
+        --><div>
+            <p>打造全新世界观，让你更</p>
+            <p>爱你的生活</p>
+        </div><!--
+        --><div>
+        <p>打造全新世界观，让你更</p>
+        <p>爱你的生活</p>
+        </div>
+    </div>
+    <div class="div-3 center">
+        <img src="img/book.png">
+        <h1 class="center">关于新世界，你不知道的还有什么？</h1>
+    </div>
+    <div class="div-4 center">
+        <div class="stack"></div>
+        <div class="position">
+            <h2>查看新世界城市活动信息</h2>
+            <div class="line center"></div>
+            <p>每个城市的有不同的活动信息，请自助查询您所需要了解的城市</p>
+            <div id="selectGroup">
+                <ul class="select">
+                    <li>
+                        <span class="span"><span class="arrow"></span><span id="country">中国</span></span>
+                        <ul>
+                            <li onclick="getCountryInner(this)">中国</li>
+                            <li onclick="getCountryInner(this)">美国</li>
+                        </ul>
+                    </li>
+                </ul><!--
+             --><ul class="select">
+                    <li>
+                        <span class="span"><span class="arrow"></span><span id="province">省份</span></span>
+                        <ul>
+                            <li onclick="getProvinceInner(this)">浙江省</li>
+                            <li onclick="getProvinceInner(this)">江苏省</li>
+                            <li onclick="getProvinceInner(this)">北京市</li>
+                            <li onclick="getProvinceInner(this)">河北省</li>
+                            <li onclick="getProvinceInner(this)">天津市</li>
+                            <li onclick="getProvinceInner(this)">内蒙古自治区</li>
+                        </ul>
+                    </li>
+                </ul><!--
+             --><ul class="select">
+                    <li>
+                        <span class="span"><span class="arrow"></span><span id="city">城市</span></span>
+                        <ul>
+                            <li onclick="getCityInner(this)">杭州</li>
+                            <li onclick="getCityInner(this)">温州</li>
+                        </ul>
+                    </li>
+                </ul><!--
+             --><input type="button" value="搜索">
+            </div>
+        </div>
+    </div>
+    <div class="div-5 center">
+        <div class="container">
+            <div class="div">
+                <div class="border">
+                    <img src="img/photo-3.png" class="center">
+                </div>
+                <h4>北京活动</h4>
+                <p>新社区大联盟</p>
+            </div><!--
+         --><div class="div">
+                <h3>上海活动</h3>
+                <p>夜上海新景观探索</p>
+                <div class="border">
+                 <img src="img/photo-4.png" class="center">
+                </div>
+        </div><!--
+         --><div class="div">
+                <div class="border">
+                    <img src="img/photo-5.png" class="center">
+                </div>
+                <h4>深圳活动</h4>
+                <p>全新海岸线双点站</p>
+            </div><!--
+         --><div class="div">
+                <div class="border">
+                    <img src="img/photo-6.png" class="center">
+                </div>
+                <h4>香港活动</h4>
+                <p>奢侈消费大派送</p>
+            </div>
+        </div>
+    </div>
+    <div class="div-6 center">
+        <img src="img/photo-7.png">
+        <div class="wrapper">
+            <h2>新世界</h2>
+            <h1>TIME</h1>
+            <h3>@新世界-北京</h3>
+            <h3>2016.04.01</h3>
+        </div>
+
+        <div class="right">
+            <div class="absolute-center wrapper-1">
+                <h4>新世界/<span>01</span></h4>
+                <p>
+                    新世界是个新世界新世界是个新世界
+                    新世界是个新世界新世界是个新世界
+                    新世界是个新世界新世界是个新世界
+                    新世界是个新世界新世界是个新世界
+                </p>
+                <input type="button" value="更多详情">
+                <div class="circle-group">
+                    <a href="javascript:void(0)" class="solid-circle"></a><!--
+                 --><a href="javascript:void(0)" class="circle"></a><!--
+                 --><a href="javascript:void(0)" class="circle"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="div-7 center">
+        <div class="wrapper color-1">
+            <div class="absolute-center wrapper-1">
+                <h4>新时代</h4>
+                <h4>关于爱生活的我们</h4>
+                <div class="line center"></div>
+                <input type="button" value="查看更多">
+            </div>
+        </div><!--
+     --><div class="wrapper color-2">
+            <div class="absolute-center wrapper-1">
+                <h4>新时代</h4>
+                <h4>关于爱生活的我们</h4>
+                <div class="line center"></div>
+                <input type="button" value="查看更多">
+            </div>
+        </div><!--
+     --><div class="wrapper">
+            <div class="stack"></div>
+        </div>
+    </div>
+    <div class="div-8 center">
+        <h3 class="center">成为我们的志愿者</h3>
+        <div class="line"></div>
+        <p class="center">新世界的大家庭需要每个爱生活的人的加入，如果你够年轻，有梦想，有激情</p>
+        <p class="center">那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+        <div class="wrapper">
+            <section class="sectionOne">
+                <h4>新世界志愿者协会</h4>
+                <p>加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则......</p>
+                <input type="button" value="more"><br clear="both"/><br/>
+                <h4>新世界志愿者权利</h4>
+                <p>新世界志愿者享受新世界内部所有自愿共享的权利，并且享受所在新世界活动的优先参与资格</p>
+                <input type="button" value="more"><br clear="both"/>
+                <h4>更多条款</h4>
+                <input type="button" value="more">
+            </section><!--
+          --><section class="sectionTwo">
+                <table>
+                    <tr>
+                        <td><input type="text" placeholder="姓名："></td>
+                        <td><input type="text" placeholder="年龄："></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="联系方式："></td>
+                        <td><input type="text" placeholder="联系地址："></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><textarea placeholder="请简单描述您梦想的生活："></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="button" value="提交申请"></td>
+                    </tr>
+                </table>
+
+            </section>
+        </div>
+
+    </div>
+    <div class="div-9 center">
+        <h2>联系我们</h2>
+        <p>为了更好的获取我们最新的产品咨询，您也可以留下您的电子邮箱快速订阅我们的产品咨询</p>
+        <p>也可以通过以下任何方式关注我们动态</p>
+        <section class="btn center">
+            <input type="text" placeholder="someone@email.com" required>
+            <input type="submit" value="提交">
+        </section>
+        <section class="img-group center">
+            <img src="img/1.png"><img src="img/2.png"><img src="img/3.png"><img src="img/4.png">
+        </section>
+    </div>
+    <div class="footer center">
+        <p class="left">@2016新世界</p>
+        <a href="#" class="right">back to top</a>
+    </div>
+</div>
+
+<script>
+    function select(){
+        var elis = document.getElementById("selectGroup").getElementsByTagName("li");
+        for(var i=0;i<elis.length;i ++){
+            elis[i].onmouseover=function(){
+                this.className +=(this.className.length>0?" ":"")+"list-show";
+            };
+            elis[i].onmouseout=function(){
+                this.className =this.className.replace("list-show","");
+            };
+        }
+    }
+    function getCountryInner(obj){
+        document.getElementById("country").innerHTML=obj.innerHTML;
+    }
+    function getProvinceInner(obj){
+        document.getElementById("province").innerHTML=obj.innerHTML;
+    }
+    function getCityInner(obj){
+        document.getElementById("city").innerHTML=obj.innerHTML;
+    }
+    window.onload=select;
+</script>
+</body>
+</html>
